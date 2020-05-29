@@ -1,0 +1,431 @@
+*{
+	margin:0;
+	padding:0;
+}
+.B{
+	width: 1200px;
+	margin: auto;
+	/*确定版心位置*/
+}
+body{
+	background-color: #f3f5f7;
+	height: 2460px;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	height: 42px;
+	margin: 30px auto;
+}
+.logo{
+	font-size: 40px;
+	color: #00a4ff;
+	width: 198px;
+	height: 42px;
+	line-height: 42px;
+	float: left;
+}
+.nav{
+	/*实现文字整体与图片的距离*/
+	float: left;
+	margin-left: 70px;
+}
+.nav ul li{
+	float: left;
+	margin: 0 15px;
+}
+.nav ul li a{
+	display: block;
+	height: 42px;
+	padding: 0 10px;
+	line-height: 42px;
+	font-size: 18px;
+	color: #050505;
+}
+.nav ul li a:hover{
+	border-bottom: 2px solid #00a4ff;
+}
+.search{
+	height: 42px;
+	width: 412px;
+	background-color: skyblue;
+	float: left;
+	margin-left: 50px;
+}
+.search input{
+	float: left;
+	width: 345px;
+	height: 40px;
+	border: 1px solid #00a4ff;
+	border-right: 0;
+	color: #bfbfbf;
+	font-size: 14px;
+	padding-left: 15px;
+}
+.search button{
+	float: left;
+	width: 50px;
+	height: 42px;
+	border: 0;
+	background-color: #00a4ff;
+	background: url(pic/jinjin.jpg) ;
+}
+.personal li{
+	/*float: left;*/
+	display: inline-block;
+	width: 70px;
+	height: 12px;
+	line-height: 12px;
+	margin: 14px 30px;
+}
+.banner{
+	height: 420px;
+	background-color: #1c036c;
+
+}
+.banner .B{
+	height: 420px;
+	background: url(pic/banner2.png);
+}
+.celan{
+	float: left;
+	width: 190px;
+	height: 420px;
+	background:rgba(0,0,0,0.3);
+}
+.celan ul li{
+	height: 45px;
+	line-height: 45px;
+	padding: 0 20px;
+}
+.celan ul li a {
+	font-size: 14px;
+	color: #fff;
+}
+.celan ul li a span{
+	float: right;
+}
+.celan ul li a:hover{
+	color: #00a4ff;
+}
+/*-----------------------------------------------------------*/
+.goods{
+	height: 60px;
+	background-color: #fff;
+	box-shadow: 0 2px 3px 3px rgba(0,0,0,0.1);
+	margin-top: 10px;
+	line-height: 60px;
+}
+.goods h4{
+	float: left;
+	margin-left: 30px;
+	font-size: 16px;
+	color:#00a4ff;
+}
+.goods ul{
+	margin-left: 30px;
+	float: left;
+}
+.goods ul li a{
+	padding: 0 30px;
+	font-size: 16px;
+	color: #050505;
+	border-left: 1px solid #ccc;
+}
+.goods ul li{
+	float: left;
+}
+.mood{
+	float: right;
+	margin-right: 30px;
+	font-size: 14px;
+	color:#00a4ff;	
+}
+/*----------------------------------------------------------------*/
+.box{
+	height: 610px;
+	margin-top: 30px;
+}
+.box-hd h4{
+	float: left;
+	font-size: 20px;
+	color:#494949;
+	font-weight: 400;
+}
+.box-hd a{
+	float: right;
+	font-size: 12px;
+	color: #a5a5a5;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+.box-hd{
+	height: 45px;
+}
+.box-bd ul {
+	width: 1225px;
+	height: 554px;
+}
+.box-bd ul li{
+	width:228px;
+	height:269px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	background-color: white;
+}
+.box-bd ul li img{
+	width: 100%;
+}
+.box-bd ul li h4{
+	margin: 20px 20px 20px 25px;
+	font-size: 14px;
+	color: #050505;
+	font-weight: 400;
+}
+.box-bd .mation{
+	margin:0 20px 0 25px;
+	font-size: 12px;
+	color: #999
+}
+.box-bd .mation span{
+	color: #ff7c2d;
+}
+/*-------------------------------------------*/
+.kaifa{
+	height: 323px;
+	margin-top: 40px;
+}
+ .top{
+	height: 45px;
+}
+ .top h4{
+	float: left;
+	font-size: 20px;
+	color:#494949;
+	font-weight: 400;
+}
+ .top-h a{
+	float: right;
+	font-size: 12px;
+	color: #a5a5a5;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+ .top-z{
+	margin-left: 292px;
+}
+ .top-z li a{
+	float: left;
+	font-size: 16px;
+	color: #868686;
+	margin-left: 95px;
+	margin-top: 3px;
+}
+/*--------------------------*/
+.bottom{
+	height: 154px;
+}
+.bottom ul{
+	width: 1250px;
+	height: 269px;
+}
+.bottom ul li{
+	width: 228px;
+	height: 269px;
+	float: left;
+	margin-bottom: 15px;
+	margin-right: 15px;
+	background-color: white;
+}
+.bottom ul li img{
+	width: 100%;
+}
+.bottom ul li .yi h4{
+	margin:25px 0 35px 25px;
+	font-size: 14px;
+	color: #050505;
+	font-weight:400;
+}
+.bottom ul li .er h4{
+	margin:25px 0 15px 25px;
+	font-size: 14px;
+	color: #050505;
+	font-weight:400;
+}
+.bottom .inf{
+	margin: 0 20px 0 25px;
+	font-size: 12px;
+	color: #999;
+}
+.bottom .inf span{
+	color: #ff7c2d;
+}
+/*===========================*/
+.eng{
+	/*margin-top: 35px;*/
+	/*height: 480px;*/
+}
+ .eng-top h4{
+	float: left;
+	font-size: 20px;
+	color:#494949;
+	font-weight: 400;
+}
+ .eng-top {
+ 	/*float: left;*/
+ 	width: 1204px;
+ 	height: 45px;
+ 	line-height: 45px;
+ 	width: 1204px;
+ 	overflow: hidden;
+ }
+/*===========================*/
+.on1{
+	float: left;
+	margin-top: 10px;
+	position: relative;
+	width: 476px;
+	height: 320px;
+	margin-bottom: 72px;
+}
+.write1{
+	position: absolute;
+	left: 27px;
+	top: 95px;
+	color: #f9e103;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+.write2{
+	position:absolute;
+	left: 27px;
+	top: 134px;
+	color: #ffffff;
+	font-size: 27.2px;
+}
+.write3 {
+	color: #f9e103;
+	position: absolute;
+	left: 27px;
+	top: 190px;
+	padding: 5px 18px;
+	font-size: 13.24px;
+	border: 1px solid #f9e103;
+}
+/*--------------------------------------------------------*/
+.on2{
+	position: relative;
+	margin-top: 10px;
+	margin-left: 10px;
+	display: inline-block;
+}
+.wenzi{
+	left: 0px;
+	top: 198px;
+	position: absolute;
+	width: 228px;
+	height: 120px;
+	background: rgba(0,0,0,0.3);
+}
+.wenzi  h4{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 10px;
+	float: left;
+	font-size: 18px;
+	color: #ffffff;
+}
+.wenzi h5{
+	font-weight: 100px;
+	margin-top: 23px;
+	font-size: 14px;
+	color: #ffffff;
+}
+.wenzi  p{
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 12px;
+	color: #ffffff;
+}
+.on3{
+	position: relative;
+	margin-left: 10px;
+	margin-top: 10px;
+	display: inline-block;
+}
+.on4{
+	position: relative;
+	margin-top: 10px;
+	margin-left: 10px;
+	display: inline-block;
+}
+/*================================*/
+.footer{
+	height: 415px;
+	background-color: white;
+}
+.footer .B {
+	margin-top: 100px;
+	padding-top: 123px;
+}
+.zuo{
+	float: left;
+}
+.you{
+	float: right;
+}
+.zuo h4{
+	font-size: 36px;
+	color: #00a4ff;
+}
+.zuo p{
+	margin: 39px 0 30px 0;
+	font-size: 12px;
+	color: #666666;
+}
+.zuo .APP{
+	display: block;
+	color: #00a4ff;
+	width: 120px;
+	height: 30px;
+	border: 1px solid #00a4ff;
+	text-align: center;
+	line-height: 30px;
+	font-size: 16px;
+}
+.sss a{
+	font-size: 16px;
+	color: #333333;
+}
+.xxx{
+	margin-top:16px;
+}
+.xxx a{
+	font-size: 12px;
+	color: #333333;
+	margin-bottom: 12px;
+}
+.you .NO1{
+	height: 135px;
+	float: left;
+	margin-left: 140px;
+	margin-top: 13px;
+}
+.you .NO2{
+	height: 135px;
+	float: left;
+	margin-left: 140px;
+	margin-top: 13px;
+}
+.you .NO3{
+	height: 80px;
+	float: left;
+	margin-left: 140px;
+	margin-top: 13px;
+}
